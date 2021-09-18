@@ -27,7 +27,6 @@
                 width: 682px;
                 height: 384px;
 
-
                 &-wrapper {
                     margin: auto;
                     display: flex;
@@ -42,7 +41,6 @@
                 line-height: 46px;
                 color: #221714;
             }
-
         }
     }
 
@@ -107,7 +105,6 @@
                 width: 100%;
                 height: 100%;
             }
-
         }
 
         &__btn {
@@ -147,7 +144,6 @@
                 align-items: center;
                 margin-bottom: 29px;
             }
-
         }
 
         &__link-item {
@@ -161,7 +157,6 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-
         }
     }
 
@@ -175,7 +170,6 @@
                 width: 100%;
                 height: 100%;
             }
-
         }
 
         &__btn {
@@ -215,7 +209,6 @@
                 align-items: center;
                 margin-bottom: 29px;
             }
-
         }
 
         &__link-item {
@@ -242,7 +235,6 @@
                 width: 100%;
                 height: 100%;
             }
-
         }
 
         &__btn {
@@ -282,7 +274,6 @@
                 align-items: center;
                 margin-bottom: 29px;
             }
-
         }
 
         &__link-item {
@@ -299,8 +290,6 @@
         }
     }
 }
-
-
 
 @media only screen and (max-width: 750px) {
     .main {
@@ -334,7 +323,6 @@
                 width: 90.933vw;
                 height: 51.200vw;
 
-
                 &-wrapper {
                     margin: auto;
                     display: flex;
@@ -347,39 +335,42 @@
             &__heading--hidden {
                 display: none;
             }
-    
+
             &__item {
                 &:nth-child(n+2) {
                     .miyajima {
                         background-color: #ffeeda;
                         padding-bottom: 13.333vw;
+
                         &__btn {
                             background-color: white;
                         }
                     }
                 }
-    
+
                 &:nth-child(n+5) {
                     .izumo {
                         background-color: #f5e9f3;
                         padding-bottom: 13.333vw;
+
                         &__btn {
                             background-color: white;
-        
+
                             &--top {
                                 background-color: white;
                             }
                         }
                     }
                 }
-    
+
                 &:nth-child(n+8) {
                     .onomichi {
                         background-color: #e3f0f9;
                         padding-bottom: 13.333vw;
+
                         &__btn {
                             background-color: white;
-        
+
                             &--top {
                                 background-color: white;
                             }
@@ -391,14 +382,16 @@
 
         .miyajima {
             padding-bottom: 12vw;
+
             &-figure {
                 width: 100vw;
+
                 img {
                     width: 100%;
                     height: 100%;
                 }
             }
-    
+
             &__btn {
                 width: 30.667vw;
                 height: 8.667vw;
@@ -411,17 +404,17 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-    
+
                 &-wrapper {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
                     padding-top: 5.733vw;
-                    width:65.067vw;
+                    width: 65.067vw;
                     margin: auto;
                 }
-    
+
                 &--top {
                     width: 100%;
                     height: 8.667vw;
@@ -436,37 +429,34 @@
                     align-items: center;
                     margin-bottom: 3.867vw;
                 }
-    
             }
-    
+
             &__link-item {
                 &:nth-child(1) {
                     margin-right: 3.867vw;
                 }
             }
-    
+
             &__link-list {
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
-    
             }
         }
 
         .izumo {
             padding-bottom: 13.333vw;
-    
+
             &-figure {
                 width: 100vw;
-    
+
                 img {
                     width: 100%;
                     height: 100%;
                 }
-    
             }
-    
+
             &__btn {
                 width: 30.667vw;
                 height: 8.667vw;
@@ -479,17 +469,17 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-    
+
                 &-wrapper {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
                     padding-top: 5.733vw;
-                    width:65.067vw;
+                    width: 65.067vw;
                     margin: auto;
                 }
-    
+
                 &--top {
                     width: 100%;
                     height: 8.667vw;
@@ -504,15 +494,14 @@
                     align-items: center;
                     margin-bottom: 3.867vw;
                 }
-    
             }
-    
+
             &__link-item {
                 &:nth-child(1) {
                     margin-right: 3.867vw;
                 }
             }
-    
+
             &__link-list {
                 display: flex;
                 flex-direction: row;
@@ -523,17 +512,16 @@
 
         .onomichi {
             padding-bottom: 13.333vw;
-    
+
             &-figure {
                 width: 100vw;
-    
+
                 img {
                     width: 100%;
                     height: 100%;
                 }
-    
             }
-    
+
             &__btn {
                 width: 30.667vw;
                 height: 8.667vw;
@@ -546,17 +534,17 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-    
+
                 &-wrapper {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    padding-top:5.733vw;
-                    width:65.067vw;
+                    padding-top: 5.733vw;
+                    width: 65.067vw;
                     margin: auto;
                 }
-    
+
                 &--top {
                     width: 100%;
                     height: 8.667vw;
@@ -565,21 +553,20 @@
                     font-size: 3.867vw;
                     font-family: GothicA1-Medium;
                     border-radius: 9.333vw;
-                    border:0.133vw solid #000000;
+                    border: 0.133vw solid #000000;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     margin-bottom: 3.867vw;
                 }
-    
             }
-    
+
             &__link-item {
                 &:nth-child(1) {
                     margin-right: 3.867vw;
                 }
             }
-    
+
             &__link-list {
                 display: flex;
                 flex-direction: row;
@@ -590,8 +577,7 @@
     }
 }
 
-    @font-face {
-        font-family: GothicA1-Medium;
-        src: url("../font/Gothic_A1/GothicA1-Medium.ttf");
-    }
-
+@font-face {
+    font-family: GothicA1-Medium;
+    src: url("../font/Gothic_A1/GothicA1-Medium.ttf");
+}
