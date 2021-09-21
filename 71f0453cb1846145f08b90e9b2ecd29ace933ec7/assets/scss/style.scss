@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+// セットアップ
+@import "reset";
+
+// コンテンツエリア
+@import "main-contents";
+@include reset-html5();
